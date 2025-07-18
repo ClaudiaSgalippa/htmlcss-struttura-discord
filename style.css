@@ -58,6 +58,7 @@
 }
 
 .presentation {
+    display: flex;
     border-style: dashed;
     height: 80%;
     width: 50%;
@@ -74,6 +75,7 @@
 }
 
 .channels-img {
+    display: flex;
     border-style: dashed;
     height: 80%;
     width: 42%;
@@ -81,6 +83,7 @@
 }
 
 .channels-info {
+    display: flex;
     border-style: dashed;
     height: 80%;
     width: 24%;
@@ -96,6 +99,7 @@
 }
 
 .server-info {
+    display: flex;
     border-style: dashed;
     height: 80%;
     width: 24%;
@@ -103,6 +107,7 @@
 }
 
 .server-img {
+    display: flex;
     border-style: dashed;
     height: 80%;
     width: 42%;
@@ -111,12 +116,14 @@
 
 #third-slide {
     display: flex;
+    display: flex;
     height: 500px;
     justify-content: center;
     align-items: center;
 }
 
 .community-img {
+    display: flex;
     border-style: dashed;
     height: 80%;
     width: 42%;
@@ -124,6 +131,7 @@
 }
 
 .community-info {
+    display: flex;
     border-style: dashed;
     height: 80%;
     width: 24%;
@@ -140,6 +148,7 @@
 }
 
 .streaming {
+    display: flex;
     border-style: dashed;
     height: 80%;
     width: 66%;
@@ -161,48 +170,51 @@
 #bottom-info {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px;
 }
 
 #socials {
+    display: flex;
     border-style: dashed;
-    height: 80%;
-    width: 260px;
+    height: 90%;
+    width: 250px;
     background-color: #F08180;
 }
 
 #info-menu {
+    display: flex;
     border-style: dashed;
-    height: 80%;
-    width: 540px;
+    height: 90%;
+    width: 550px;
     background-color: #20B3AA;
 }
 
 .product {
+    display: flex;
     border-style: dashed;
     border-color: white;
-    height: 25%;
     width: 25%;
 }
 
 .company {
+    display: flex;
     border-style: dashed;
     border-color: white;
-    height: 25%;
     width: 25%;
 }
 
 .resources {
+    display: flex;
     border-style: dashed;
     border-color: white;
-    height: 25%;
     width: 25%;
 }
 
 .norms {
+    display: flex;
     border-style: dashed;
     border-color: white;
-    height: 25%;
     width: 25%;
 }
 
@@ -225,7 +237,7 @@
 }
 
 #empty {
-   display: flex;
+    display: flex;
     height: 65px;
     width: 805%;
     background-color: #7FFFD4;
