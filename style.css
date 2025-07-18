@@ -171,14 +171,15 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 20px;
+    padding-top: 20px;
+    width: 66%;
 }
 
 #socials {
     display: flex;
     border-style: dashed;
     height: 90%;
-    width: 250px;
+    width: 30%;
     background-color: #F08180;
 }
 
@@ -186,7 +187,7 @@
     display: flex;
     border-style: dashed;
     height: 90%;
-    width: 550px;
+    width: 70%;
     background-color: #20B3AA;
 }
 
@@ -232,7 +233,7 @@
 #link-bottom-info {
     display: flex;
     height: 65px;
-    width: 800px;
+    width: 66%;
     background-color: #7FFFD4;
 }
 
