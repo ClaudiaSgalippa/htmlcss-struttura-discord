@@ -5,14 +5,15 @@
     box-sizing: border-box;
 }
 
-/*Main Nav*/
+/*Home*/
 #main-nav {
     display: flex;
-    height: 70px;
+    height: 550px;
     background-color: #add8e7;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+    padding: 15px;
 }
 
 #link-menu {
@@ -31,8 +32,8 @@
     display: flex;
     height: 40px;
     width: 20%;
-    padding: 10px;
     align-items: center;
+    padding: 10px;
 }
 
 .link {
@@ -53,7 +54,7 @@
     display: flex;
     height: 40px;
     width: 20%;
-    padding: 10px;
     justify-content: flex-end;
     align-items: center;
+    padding: 10px;
 }
