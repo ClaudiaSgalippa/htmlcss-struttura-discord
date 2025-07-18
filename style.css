@@ -22,7 +22,7 @@
     background-color: #DAA51E;
 }
 
-.logo {
+.logo-up {
     display: flex;
     border-style: dashed;
     width: 20%;
@@ -144,4 +144,56 @@
     height: 80%;
     width: 66%;
     background-color: #218B21;
+}
+
+/*Bottom info*/
+
+#bottom-nav {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    border-style: dashed;
+    height: 80%;
+    width:22%;
+    background-color: #F08180;
+} 
+
+.info-menu {
+    border-style: dashed;
+    height: 80%;
+    width: 44%;
+    background-color: #20B3AA;
+    flex-direction: column;
+}
+
+.product {
+    border-style: dashed;
+    border-color: white;
+    height: 25%;
+    width: 25%;
+}
+
+.company {
+    border-style: dashed;
+    border-color: white;
+    height: 25%;
+    width: 25%;
+}
+
+.resources {
+    border-style: dashed;
+    border-color: white;
+    height: 25%;
+    width: 25%;
+}
+
+.norms {
+    border-style: dashed;
+    border-color: white;
+    height: 25%;
+    width: 25%;
 }
