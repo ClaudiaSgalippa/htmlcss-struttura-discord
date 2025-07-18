@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 
-body {
-
-    background-color: rgb(161, 78, 78);
+/*Main Nav*/
+#main-nav {
+    display: flex;
+    height: 70px;
+    background-color: rgb(127, 235, 220);
 }
