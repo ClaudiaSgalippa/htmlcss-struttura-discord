@@ -11,9 +11,8 @@
     height: 550px;
     background-color: #add8e7;
     justify-content: center;
-    align-items: flex-start;
     flex-wrap: wrap;
-    padding: 15px;
+    padding-top: 15px;
 }
 
 #link-menu {
@@ -21,40 +20,55 @@
     height: 40px;
     width: 65%;
     background-color: #DAA51E;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .logo {
+    display: flex;
     border-style: dashed;
     border-color: black;
     border-width: 2px;
-    display: flex;
-    height: 40px;
     width: 20%;
     align-items: center;
     padding: 10px;
 }
 
 .link {
+    display: flex;
     border-style: dashed;
     border-color: black;
     border-width: 2px;
-    display: flex;
-    height: 40px;
     width: 60%;
     justify-content: center;
     align-items: center;
 }
 
 .login {
+    display: flex;
     border-style: dashed;
     border-color: black;
     border-width: 2px;
-    display: flex;
-    height: 40px;
     width: 20%;
     justify-content: flex-end;
     align-items: center;
     padding: 10px;
+}
+
+#splash-home {
+    display: flex;
+    height: 460px;
+    width: 100%;
+    background-color: #00018b;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.presentation {
+    display: flex;
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+    height: 80%;
+    width: 50%;
+    background-color: #EF82ED;
 }
