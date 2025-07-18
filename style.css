@@ -18,7 +18,7 @@
 #link-menu {
     display: flex;
     height: 40px;
-    width: 65%;
+    width: 66%;
     background-color: #DAA51E;
 }
 
@@ -76,14 +76,14 @@
 .channels-img {
     border-style: dashed;
     height: 80%;
-    width: 45%;
+    width: 42%;
     background-color: #1E90FF;
 }
 
 .channels-info {
     border-style: dashed;
     height: 80%;
-    width: 25%;
+    width: 24%;
     background-color: #FFC0CA;
 }
 
@@ -98,14 +98,14 @@
 .server-info {
     border-style: dashed;
     height: 80%;
-    width: 25%;
+    width: 24%;
     background-color: #FFC0CA;
 }
 
 .server-img {
     border-style: dashed;
     height: 80%;
-    width: 45%;
+    width: 42%;
     background-color: #1E90FF;
 }
 
@@ -119,14 +119,14 @@
 .community-img {
     border-style: dashed;
     height: 80%;
-    width: 45%;
+    width: 42%;
     background-color: #1E90FF;
 }
 
 .community-info {
     border-style: dashed;
     height: 80%;
-    width: 25%;
+    width: 24%;
     background-color: #FFC0CA;
 }
 
@@ -136,5 +136,12 @@
     background-color: #D3D3D3;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /*flex-direction: column;*/
+}
+
+.streaming {
+    border-style: dashed;
+    height: 80%;
+    width: 66%;
+    background-color: #218B21;
 }
