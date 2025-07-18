@@ -25,8 +25,6 @@
 .logo {
     display: flex;
     border-style: dashed;
-    border-color: black;
-    border-width: 2px;
     width: 20%;
     align-items: center;
     padding: 10px;
@@ -35,8 +33,6 @@
 .link {
     display: flex;
     border-style: dashed;
-    border-color: black;
-    border-width: 2px;
     width: 60%;
     justify-content: center;
     align-items: center;
@@ -45,8 +41,6 @@
 .login {
     display: flex;
     border-style: dashed;
-    border-color: black;
-    border-width: 2px;
     width: 20%;
     justify-content: flex-end;
     align-items: center;
@@ -64,11 +58,83 @@
 }
 
 .presentation {
-    display: flex;
     border-style: dashed;
-    border-color: black;
-    border-width: 2px;
     height: 80%;
     width: 50%;
     background-color: #EF82ED;
+}
+
+/*Presentazione*/
+
+#first-slide {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.channels-img {
+    border-style: dashed;
+    height: 80%;
+    width: 45%;
+    background-color: #1E90FF;
+}
+
+.channels-info {
+    border-style: dashed;
+    height: 80%;
+    width: 25%;
+    background-color: #FFC0CA;
+}
+
+#second-slide {
+    display: flex;
+    height: 500px;
+    background-color: #D3D3D3;
+    justify-content: center;
+    align-items: center;
+}
+
+.server-info {
+    border-style: dashed;
+    height: 80%;
+    width: 25%;
+    background-color: #FFC0CA;
+}
+
+.server-img {
+    border-style: dashed;
+    height: 80%;
+    width: 45%;
+    background-color: #1E90FF;
+}
+
+#third-slide {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.community-img {
+    border-style: dashed;
+    height: 80%;
+    width: 45%;
+    background-color: #1E90FF;
+}
+
+.community-info {
+    border-style: dashed;
+    height: 80%;
+    width: 25%;
+    background-color: #FFC0CA;
+}
+
+#fourth-slide {
+    display: flex;
+    height: 800px;
+    background-color: #D3D3D3;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
