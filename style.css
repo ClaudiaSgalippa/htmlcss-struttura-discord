@@ -153,6 +153,7 @@
     height: 500px;
     justify-content: center;
     align-items: center;
+    background-color: #23272A
 }
 
 .socials {
@@ -167,7 +168,6 @@
     height: 80%;
     width: 44%;
     background-color: #20B3AA;
-    flex-direction: column;
 }
 
 .product {
@@ -197,3 +197,4 @@
     height: 25%;
     width: 25%;
 }
+
