@@ -148,25 +148,33 @@
 
 /*Bottom info*/
 
-#bottom-nav {
+/*First*/
+
+#bottom-nav-up {
     display: flex;
-    height: 500px;
+    height: 550px;
+    background-color: #23272A;
     justify-content: center;
-    align-items: center;
-    background-color: #23272A
+    flex-wrap: wrap;
 }
 
-.socials {
-    border-style: dashed;
-    height: 80%;
-    width:22%;
-    background-color: #F08180;
-} 
+#bottom-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.info-menu {
+#socials {
     border-style: dashed;
     height: 80%;
-    width: 44%;
+    width: 260px;
+    background-color: #F08180;
+}
+
+#info-menu {
+    border-style: dashed;
+    height: 80%;
+    width: 540px;
     background-color: #20B3AA;
 }
 
@@ -198,3 +206,50 @@
     width: 25%;
 }
 
+/*Second*/
+
+#bottom-nav-down {
+    display: flex;
+    height: 100px;
+    background-color: #23272A;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+#link-bottom-info {
+    display: flex;
+    height: 65px;
+    width: 800px;
+    background-color: #7FFFD4;
+}
+
+#empty {
+   display: flex;
+    height: 65px;
+    width: 805%;
+    background-color: #7FFFD4;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo-down {
+    display: flex;
+    border-style: dashed;
+    height: 34px;
+    width: 65px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFB6BF;
+}
+
+.registration {
+    display: flex;
+    border-style: dashed;
+    height: 34px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFB6BF;
+}
