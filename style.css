@@ -3,6 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*Utility*/
+button {
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 /*Home*/
@@ -38,6 +49,12 @@
     align-items: center;
 }
 
+#upper-bar {
+    display: flex;
+    list-style-type: none;
+}
+
+
 .login {
     display: flex;
     border-style: dashed;
@@ -58,7 +75,6 @@
 }
 
 .presentation {
-    display: flex;
     border-style: dashed;
     height: 80%;
     width: 50%;
@@ -83,7 +99,6 @@
 }
 
 .channels-info {
-    display: flex;
     border-style: dashed;
     height: 80%;
     width: 24%;
@@ -99,7 +114,6 @@
 }
 
 .server-info {
-    display: flex;
     border-style: dashed;
     height: 80%;
     width: 24%;
@@ -131,7 +145,6 @@
 }
 
 .community-info {
-    display: flex;
     border-style: dashed;
     height: 80%;
     width: 24%;
@@ -148,7 +161,6 @@
 }
 
 .streaming {
-    display: flex;
     border-style: dashed;
     height: 80%;
     width: 66%;
@@ -158,6 +170,12 @@
 /*Bottom info*/
 
 /*First*/
+
+#upper-bar {
+    display: flex;
+    list-style-type: none;
+}
+
 
 #bottom-nav-up {
     display: flex;
@@ -176,7 +194,6 @@
 }
 
 #socials {
-    display: flex;
     border-style: dashed;
     height: 90%;
     width: 30%;
@@ -220,6 +237,12 @@
 }
 
 /*Second*/
+
+#bottom-bar {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+}
 
 #bottom-nav-down {
     display: flex;
